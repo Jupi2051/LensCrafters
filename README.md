@@ -1,6 +1,6 @@
 # LensCrafters
 
-This is a landing page for a restaurant website developed using ReactJs with Typescript & Tailwind with all its amazing features with simple filtering methods.
+LensCrafters is a photographer portfolio website developed using ReactJs with Typescript and Tailwind with all its amazing features and Framer motion.
 **You can see it here: _[LensCrafters](https://lens-crafters-6418dppem-amrabouelkair.vercel.app/)_**
 
 ## Screenshots
@@ -19,7 +19,7 @@ This is a landing page for a restaurant website developed using ReactJs with Typ
 
 ## Introduction
 
-The LensCrafters project is a fully responsive dark mode website that showcases the LensCrafters restaurant and provides information about its meals and offerings.
+The LensCrafters project is a fully responsive dark mode website showcasing its portfolio and providing information about its photos.
 
 ## Technologies
 
@@ -28,6 +28,7 @@ The LensCrafters project utilizes the following technologies:
 - React with TypeScript
 - Tailwind
 - HTML & CSS
+- Framer motion
 
 ## Installation
 
