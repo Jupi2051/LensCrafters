@@ -1,12 +1,13 @@
+import { Variant } from "framer-motion";
 import React, { useState, useEffect, createContext } from "react";
 
-type MyVariant = {
-  [key: string]: string | number | undefined;
-};
+// type MyVariant = {
+//   [key: string]: string | number | undefined;
+// };
 
-interface CursorVariants extends Record<string, MyVariant> {
-  default: MyVariant;
-  text: MyVariant;
+interface CursorVariants extends Record<string, Variant> {
+  default: Variant;
+  text: Variant;
 }
 
 interface CursorContextValue {
@@ -52,6 +53,11 @@ const CursorProvider: React.FC<{ children: React.ReactNode }> = ({
       x: cursorPos.x - 16,
       y: cursorPos.y - 16,
       backgroundColor: "#0e1112",
+      transition: {
+        ease: "linear",
+        type: "spring",
+        stiffness: 50
+      }
     },
     text: {
       width: "150px",
@@ -60,6 +66,11 @@ const CursorProvider: React.FC<{ children: React.ReactNode }> = ({
       y: cursorPos.y - 72,
       backgroundColor: "#fff",
       mixBlendMode: "difference",
+      transition: {
+        ease: "linear",
+        type: "spring",
+        stiffness: 50
+      }
     },
     none: {
       width: 0,

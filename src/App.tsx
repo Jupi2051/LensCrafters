@@ -22,7 +22,7 @@ function App() {
       <motion.div
         variants={cursorVariants}
         animate={cursorBG}
-        className="fixed w-[32px] h-[32px] pointer-events-none bg-primary top-0 left-0 z-50 rounded-full transition-all"
+        className="fixed w-[32px] h-[32px] pointer-events-none bg-primary top-0 left-0 z-50 rounded-full"
       ></motion.div>
     </>
   );
