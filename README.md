@@ -1,6 +1,6 @@
 # LensCrafters
 
-LensCrafters is a photographer portfolio website developed using ReactJs with Typescript and Tailwind with all its amazing features and Framer motion.
+LensCrafters is a photographer portfolio website developed using ReactJs with Typescript and Tailwind with all its amazing features and Framer motion and the cursor was fixed too.
 **You can see it here: _[LensCrafters](https://lens-crafters-6418dppem-amrabouelkair.vercel.app/)_**
 
 ## Screenshots
